@@ -1,0 +1,852 @@
+2025-06-25 03:56:06 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-25 04:57:01 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-25 05:12:48 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-25 05:18:18 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-25 05:26:08 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-25 05:27:29 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-25 05:41:06 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-25 06:11:04 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-27 22:43:33 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-27 22:46:45 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-27 22:48:59 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-29 19:01:46 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-29 19:04:02 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-29 19:04:27 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-29 19:04:51 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-29 21:05:50 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-29 21:59:53 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-29 22:02:18 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-29 22:24:19 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-29 23:20:16 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-29 23:22:38 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-30 00:34:47 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\UsersTable.php, line 56
+App\Model\Table\UsersTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 115
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-30 05:56:34 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\UsersTable.php, line 56
+App\Model\Table\UsersTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 115
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-30 06:11:09 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-30 08:07:26 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+
+2025-06-30 08:07:59 notice: Since 5.1.0: Cache config `_cake_core_` is deprecated. Use `_cake_translations_` instead
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line: 152
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/I18n/I18n.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php on line 373
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\functions.php, line 373
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 82
+Cake\I18n\I18n::translators() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\I18n.php, line 152
+Cake\I18n\I18n::getTranslator() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions.php, line 87
+C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\I18n\functions_global.php, line 77
+C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php C:\laragon\www\leaveapplicationsystem\vendor\dereuromark\cakephp-tools\src\Model\Behavior\SluggedBehavior.php, line 119
+Tools\Model\Behavior\SluggedBehavior->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\BehaviorRegistry.php, line 152
+Cake\ORM\BehaviorRegistry->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php, line 115
+Cake\Core\ObjectRegistry->load() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 776
+Cake\ORM\Table->addBehavior() C:\laragon\www\leaveapplicationsystem\src\Model\Table\ContactsTable.php, line 52
+App\Model\Table\ContactsTable->initialize() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Table.php, line 330
+Cake\ORM\Table->__construct() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 318
+Cake\ORM\Locator\TableLocator->_create() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 271
+Cake\ORM\Locator\TableLocator->createInstance() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php, line 68
+Cake\Datasource\Locator\AbstractLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php, line 211
+Cake\ORM\Locator\TableLocator->get() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 216
+Bake\Command\ModelCommand->getTableObject() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 516
+Bake\Command\ModelCommand->findHasOne() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 255
+Bake\Command\ModelCommand->getAssociations() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 164
+Bake\Command\ModelCommand->getTableContext() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 117
+Bake\Command\ModelCommand->bake() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\ModelCommand.php, line 99
+Bake\Command\ModelCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 201
+Cake\Console\BaseCommand->run() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 338
+Cake\Console\CommandRunner->runCommand() C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\laragon\www\leaveapplicationsystem\bin\cake.php, line 10
+[main]
+

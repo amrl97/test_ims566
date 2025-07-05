@@ -1,0 +1,57 @@
+2025-06-29 22:33:26 error: [Cake\Database\Exception\QueryException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'faqs.PRIMARY'
+Query: INSERT INTO `faqs` (`id`, `category`, `question`, `answer`, `slug`, `status`, `created`, `modified`) VALUES ('1', 'General', 'General Questions 1', 'General Answer 1', 'General-Questions-1', '1', '2022-11-13 15:41:26', '2022-11-13 16:31:14'),('2', 'Account', 'Account Questions 1', 'Account Answer 1', 'Account-Questions-1', '1', '2022-11-13 15:43:15', '2022-11-13 15:43:15'),('3', 'Other', 'Other Questions 1', 'Other Answer 1', 'Other-Questions-1', '1', '2022-11-13 15:43:34', '2022-11-13 15:43:34'),('6', 'General', 'General Questions 2', 'General Answer 2', 'General-Questions-2', '0', '2022-11-13 16:54:25', '2024-06-25 13:03:08') in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Database\Driver.php on line 383
+Stack Trace:
+- CORE\src\Database\Driver.php:330
+- CORE\src\Database\Driver.php:296
+- CORE\src\Database\Connection.php:268
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:268
+- ROOT\vendor\cakephp\migrations\src\Db\Adapter\AbstractAdapter.php:740
+- ROOT\vendor\cakephp\migrations\src\Db\Adapter\AdapterWrapper.php:149
+- ROOT\vendor\cakephp\migrations\src\Db\Adapter\TimedOutputAdapter.php:101
+- ROOT\vendor\cakephp\migrations\src\Db\Adapter\PhinxAdapter.php:457
+- ROOT\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:662
+- ROOT\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:634
+- ROOT\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:692
+- ROOT\config\Seeds\FaqsSeed.php:67
+- ROOT\vendor\cakephp\migrations\src\Shim\SeedAdapter.php:89
+- ROOT\vendor\cakephp\migrations\src\Migration\Environment.php:158
+- ROOT\vendor\cakephp\migrations\src\Migration\Manager.php:478
+- ROOT\vendor\cakephp\migrations\src\Migration\Manager.php:668
+- ROOT\vendor\cakephp\migrations\src\Command\SeedCommand.php:129
+- ROOT\vendor\cakephp\migrations\src\Command\SeedCommand.php:93
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'faqs.PRIMARY' in C:\laragon\www\leaveapplicationsystem\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 144
+Stack Trace:
+- CORE\src\Database\Statement\Statement.php:144
+- CORE\src\Database\Driver.php:328
+- CORE\src\Database\Driver.php:296
+- CORE\src\Database\Connection.php:268
+- CORE\src\Core\Retry\CommandRetry.php:71
+- CORE\src\Database\Connection.php:268
+- ROOT\vendor\cakephp\migrations\src\Db\Adapter\AbstractAdapter.php:740
+- ROOT\vendor\cakephp\migrations\src\Db\Adapter\AdapterWrapper.php:149
+- ROOT\vendor\cakephp\migrations\src\Db\Adapter\TimedOutputAdapter.php:101
+- ROOT\vendor\cakephp\migrations\src\Db\Adapter\PhinxAdapter.php:457
+- ROOT\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:662
+- ROOT\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:634
+- ROOT\vendor\robmorgan\phinx\src\Phinx\Db\Table.php:692
+- ROOT\config\Seeds\FaqsSeed.php:67
+- ROOT\vendor\cakephp\migrations\src\Shim\SeedAdapter.php:89
+- ROOT\vendor\cakephp\migrations\src\Migration\Environment.php:158
+- ROOT\vendor\cakephp\migrations\src\Migration\Manager.php:478
+- ROOT\vendor\cakephp\migrations\src\Migration\Manager.php:668
+- ROOT\vendor\cakephp\migrations\src\Command\SeedCommand.php:129
+- ROOT\vendor\cakephp\migrations\src\Command\SeedCommand.php:93
+- CORE\src\Console\BaseCommand.php:201
+- CORE\src\Console\CommandRunner.php:338
+- CORE\src\Console\CommandRunner.php:168
+- ROOT\bin\cake.php:10
+- [main]:
+
+2025-06-29 22:33:26 warning: The connection is going to be closed but there is an active transaction.
